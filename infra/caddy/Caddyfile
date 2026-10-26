@@ -1,0 +1,6 @@
+# Scaffold stub only. In production Caddy is the only public entry point
+# and routes to the api process only. Until the api container exists,
+# this stub just answers so `docker compose up` stays healthy.
+:80 {
+  respond "Tredge scaffold" 200
+}

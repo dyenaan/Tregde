@@ -1,0 +1,157 @@
+[
+  {
+    "name": "phase-0",
+    "color": "1D76DB",
+    "description": "Build phase the work belongs to"
+  },
+  {
+    "name": "phase-1",
+    "color": "1D76DB",
+    "description": "Build phase the work belongs to"
+  },
+  {
+    "name": "phase-2",
+    "color": "1D76DB",
+    "description": "Build phase the work belongs to"
+  },
+  {
+    "name": "phase-3",
+    "color": "1D76DB",
+    "description": "Build phase the work belongs to"
+  },
+  {
+    "name": "phase-4",
+    "color": "1D76DB",
+    "description": "Build phase the work belongs to"
+  },
+  {
+    "name": "phase-5",
+    "color": "1D76DB",
+    "description": "Build phase the work belongs to"
+  },
+  {
+    "name": "phase-6",
+    "color": "1D76DB",
+    "description": "Build phase the work belongs to"
+  },
+  {
+    "name": "phase-gate",
+    "color": "B60205",
+    "description": "Gated milestone; never starts without an explicit unlock"
+  },
+  {
+    "name": "area:canonical",
+    "color": "0E8A5F",
+    "description": "Area: canonical"
+  },
+  {
+    "name": "area:connectors",
+    "color": "0E8A5F",
+    "description": "Area: connectors"
+  },
+  {
+    "name": "area:strategy",
+    "color": "0E8A5F",
+    "description": "Area: strategy"
+  },
+  {
+    "name": "area:evidence",
+    "color": "0E8A5F",
+    "description": "Area: evidence"
+  },
+  {
+    "name": "area:risk",
+    "color": "0E8A5F",
+    "description": "Area: risk"
+  },
+  {
+    "name": "area:execution",
+    "color": "0E8A5F",
+    "description": "Area: execution"
+  },
+  {
+    "name": "area:ledger",
+    "color": "0E8A5F",
+    "description": "Area: ledger"
+  },
+  {
+    "name": "area:app",
+    "color": "0E8A5F",
+    "description": "Area: app"
+  },
+  {
+    "name": "area:news",
+    "color": "0E8A5F",
+    "description": "Area: news"
+  },
+  {
+    "name": "area:infra",
+    "color": "0E8A5F",
+    "description": "Area: infra"
+  },
+  {
+    "name": "area:docs",
+    "color": "0E8A5F",
+    "description": "Area: docs"
+  },
+  {
+    "name": "type:build",
+    "color": "FBCA04",
+    "description": "Code to write"
+  },
+  {
+    "name": "type:decision",
+    "color": "FBCA04",
+    "description": "A choice Dyenaan must make"
+  },
+  {
+    "name": "type:research",
+    "color": "FBCA04",
+    "description": "A question to answer with evidence"
+  },
+  {
+    "name": "type:chore",
+    "color": "FBCA04",
+    "description": "Maintenance"
+  },
+  {
+    "name": "type:bug",
+    "color": "D73A4A",
+    "description": "Something broken"
+  },
+  {
+    "name": "market:crypto",
+    "color": "F9A825",
+    "description": "Market: crypto"
+  },
+  {
+    "name": "market:us-equities",
+    "color": "F9A825",
+    "description": "Market: us-equities"
+  },
+  {
+    "name": "market:ngx",
+    "color": "F9A825",
+    "description": "Market: ngx"
+  },
+  {
+    "name": "market:cross",
+    "color": "F9A825",
+    "description": "Market: cross"
+  },
+  {
+    "name": "blocked",
+    "color": "B60205",
+    "description": "Cannot move; comment says why and what unblocks"
+  },
+  {
+    "name": "needs-user",
+    "color": "E4E669",
+    "description": "Waiting on Dyenaan (decision, approval, or a UI-side action)"
+  },
+  {
+    "name": "evidence-required",
+    "color": "5319E7",
+    "description": "Not Done until proof is attached"
+  }
+]

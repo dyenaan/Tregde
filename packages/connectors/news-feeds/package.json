@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/connector-news-feeds",
+  "private": true,
+  "version": "0.1.0",
+  "description": "News feeds for the news-ingestor.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

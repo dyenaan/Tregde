@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/connector-contract-tests",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared contract-test suite every connector must pass.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

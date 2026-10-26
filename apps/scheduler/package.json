@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/scheduler",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Reconciliation, BullMQ repeatable jobs, parity comparator, alerts.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

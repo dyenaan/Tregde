@@ -1,0 +1,24 @@
+# Markets are plugins, not assumptions.
+# Adding a market whose connector already exists is a config change, not code.
+# Analysis-only packs have no execution route. Execution is gated per market.
+markets:
+  - name: crypto
+    enabled: true
+    connectors:
+      - coinbase
+      - hyperliquid
+    instruments: [BTC, ETH, SOL]
+    freshness: realtime
+    execution: false # spot live-approve and perps are separate later gates
+  - name: us-equities
+    enabled: false
+    connectors:
+      - polygon
+    freshness: delayed
+    execution: false # analysis-only
+  - name: ngx
+    enabled: false
+    connectors:
+      - ngx-filedrop
+    freshness: end-of-day
+    execution: false # analysis-only
