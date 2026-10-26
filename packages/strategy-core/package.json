@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/strategy-core",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pure TypeScript strategy core: FeatureFrames in, Intents out, no I/O.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

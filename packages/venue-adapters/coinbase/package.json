@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/venue-adapter-coinbase",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Coinbase execution adapter (spot).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

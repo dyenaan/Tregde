@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Fastify REST API for the Control Tower. Scaffold only.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

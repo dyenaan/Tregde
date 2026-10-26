@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/connector-polygon",
+  "private": true,
+  "version": "0.1.0",
+  "description": "US equities data connector (pack 2, analysis-only).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

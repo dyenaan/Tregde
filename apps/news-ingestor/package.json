@@ -1,0 +1,11 @@
+{
+  "name": "@tredge/news-ingestor",
+  "private": true,
+  "version": "0.1.0",
+  "description": "News polling jobs and raw article archive.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}
